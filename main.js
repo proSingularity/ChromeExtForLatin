@@ -4,7 +4,7 @@ searchWikipedia = function(word){
 };
 
 chrome.contextMenus.create({
-  title: "Search in Wikipedia",
+  title: "Search on Latin",
   contexts:["selection"],
   onclick: searchWikipedia
 });
